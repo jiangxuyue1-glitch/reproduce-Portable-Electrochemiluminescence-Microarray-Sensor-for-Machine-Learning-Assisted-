@@ -1,0 +1,19 @@
+[project]
+name = "ecl-zen-ml"
+version = "0.1.0"
+description = "Algorithmic reproduction of machine learning assisted ECL microarray ZEN analysis"
+authors = [{ name = "jiang xuyue" }]
+requires-python = ">=3.9"
+dependencies = [
+  "numpy",
+  "pandas",
+  "scikit-learn",
+  "opencv-python",
+  "matplotlib",
+  "scipy",
+  "joblib"
+]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
